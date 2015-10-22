@@ -1,0 +1,78 @@
+{
+  "luke@EXAMPLE.COM": {
+    "principal": "luke@EXAMPLE.COM",
+    "keyVersion": 1,
+    "kdcFlags": 0,
+    "disabled": false,
+    "locked": false,
+    "expireTime": "253402300799900",
+    "createdTime": "1445523176908",
+    "keys": {
+      "DES3_CBC_SHA1": {
+        "kvno": 1,
+        "key": "3021A003020110A11A04189E3231A8FD4C320E76B63DB983DCC41A802F02497A312043"
+      },
+      "AES128_CTS_HMAC_SHA1_96": {
+        "kvno": 1,
+        "key": "3019A003020111A11204106F46BAAC74C5577E58B4D2D9EB879AA4"
+      }
+    }
+  },
+  "krbtgt/EXAMPLE.COM@EXAMPLE.COM": {
+    "principal": "krbtgt/EXAMPLE.COM@EXAMPLE.COM",
+    "keyVersion": 1,
+    "kdcFlags": 0,
+    "disabled": false,
+    "locked": false,
+    "expireTime": "253402300799900",
+    "createdTime": "1445522797950",
+    "keys": {
+      "AES128_CTS_HMAC_SHA1_96": {
+        "kvno": 1,
+        "key": "3019A003020111A112041041A8BAD3BE99323F761B890C1FECEF37"
+      },
+      "DES3_CBC_SHA1": {
+        "kvno": 1,
+        "key": "3021A003020110A11A0418752C6B15028983A1CBF8DC19CBA84A0789BA8FAD6BC22ACD"
+      }
+    }
+  },
+  "HTTP/localhost@EXAMPLE.COM": {
+    "principal": "HTTP/localhost@EXAMPLE.COM",
+    "keyVersion": 1,
+    "kdcFlags": 0,
+    "disabled": false,
+    "locked": false,
+    "expireTime": "253402300799900",
+    "createdTime": "1445523208434",
+    "keys": {
+      "DES3_CBC_SHA1": {
+        "kvno": 1,
+        "key": "3021A003020110A11A0418CB866758FD0B13A476048C139862B094D589FB25DF86C1DF"
+      },
+      "AES128_CTS_HMAC_SHA1_96": {
+        "kvno": 1,
+        "key": "3019A003020111A1120410D53124885CB76B4C943F9BA5065ADA4E"
+      }
+    }
+  },
+  "kadmin/EXAMPLE.COM@EXAMPLE.COM": {
+    "principal": "kadmin/EXAMPLE.COM@EXAMPLE.COM",
+    "keyVersion": 1,
+    "kdcFlags": 0,
+    "disabled": false,
+    "locked": false,
+    "expireTime": "253402300799900",
+    "createdTime": "1445522798051",
+    "keys": {
+      "AES128_CTS_HMAC_SHA1_96": {
+        "kvno": 1,
+        "key": "3019A003020111A1120410C538F4B5BC5701715549F71551804B0D"
+      },
+      "DES3_CBC_SHA1": {
+        "kvno": 1,
+        "key": "3021A003020110A11A041861DC76A78CEF8F19E39D6B612C5B269DE3082C9DB0ABFB54"
+      }
+    }
+  }
+}
